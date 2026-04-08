@@ -1,0 +1,227 @@
+
+> dar-ajaz@0.1.0 build
+> next build
+
+ΓÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\insha\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\insha\dar-ajaz\package-lock.json
+
+Γû▓ Next.js 16.2.2 (Turbopack)
+
+  Creating an optimized production build ...
+Found 1 warning while optimizing generated CSS:
+
+Γöé   }
+Γöé }
+Γöé @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap');
+Γöå        ^-- @import rules must precede all rules aside from @charset and @layer statements
+Γöå
+Γöé :root {
+Γöé   --color-bg: #f5f0eb;
+
+
+> Build error occurred
+Error: Turbopack build failed with 8 errors:
+./dar-ajaz/src/app/components/Footer.tsx:1:1
+Export Facebook doesn't exist in target module
+> 1 | import { Instagram, Facebook, Twitter, Youtube } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Footer() {
+  4 |   const currentYear = new Date().getFullYear();
+
+The export Facebook was not found in module [project]/dar-ajaz/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+
+./dar-ajaz/src/app/components/Footer.tsx:1:1
+Export Facebook doesn't exist in target module
+> 1 | import { Instagram, Facebook, Twitter, Youtube } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Footer() {
+  4 |   const currentYear = new Date().getFullYear();
+
+The export Facebook was not found in module [project]/dar-ajaz/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+
+./dar-ajaz/src/app/components/Footer.tsx:1:1
+Export Instagram doesn't exist in target module
+> 1 | import { Instagram, Facebook, Twitter, Youtube } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Footer() {
+  4 |   const currentYear = new Date().getFullYear();
+
+The export Instagram was not found in module [project]/dar-ajaz/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+
+./dar-ajaz/src/app/components/Footer.tsx:1:1
+Export Instagram doesn't exist in target module
+> 1 | import { Instagram, Facebook, Twitter, Youtube } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Footer() {
+  4 |   const currentYear = new Date().getFullYear();
+
+The export Instagram was not found in module [project]/dar-ajaz/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+
+./dar-ajaz/src/app/components/Footer.tsx:1:1
+Export Twitter doesn't exist in target module
+> 1 | import { Instagram, Facebook, Twitter, Youtube } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Footer() {
+  4 |   const currentYear = new Date().getFullYear();
+
+The export Twitter was not found in module [project]/dar-ajaz/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+
+./dar-ajaz/src/app/components/Footer.tsx:1:1
+Export Twitter doesn't exist in target module
+> 1 | import { Instagram, Facebook, Twitter, Youtube } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Footer() {
+  4 |   const currentYear = new Date().getFullYear();
+
+The export Twitter was not found in module [project]/dar-ajaz/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+
+./dar-ajaz/src/app/components/Footer.tsx:1:1
+Export Youtube doesn't exist in target module
+> 1 | import { Instagram, Facebook, Twitter, Youtube } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Footer() {
+  4 |   const currentYear = new Date().getFullYear();
+
+The export Youtube was not found in module [project]/dar-ajaz/node_modules/lucide-react/dist/esm/lucide-react.js [app-client] (ecmascript).
+Did you mean to import Route?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+
+./dar-ajaz/src/app/components/Footer.tsx:1:1
+Export Youtube doesn't exist in target module
+> 1 | import { Instagram, Facebook, Twitter, Youtube } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export default function Footer() {
+  4 |   const currentYear = new Date().getFullYear();
+
+The export Youtube was not found in module [project]/dar-ajaz/node_modules/lucide-react/dist/esm/lucide-react.js [app-ssr] (ecmascript).
+Did you mean to import Route?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Client Component Browser]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./dar-ajaz/src/app/components/Footer.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Client Component SSR]
+    ./dar-ajaz/src/app/page.tsx [Server Component]
+
+
+    at <unknown> (./dar-ajaz/src/app/components/Footer.tsx:1:1)
+    at <unknown> (./dar-ajaz/src/app/components/Footer.tsx:1:1)
+    at <unknown> (./dar-ajaz/src/app/components/Footer.tsx:1:1)
+    at <unknown> (./dar-ajaz/src/app/components/Footer.tsx:1:1)
+    at <unknown> (./dar-ajaz/src/app/components/Footer.tsx:1:1)
+    at <unknown> (./dar-ajaz/src/app/components/Footer.tsx:1:1)
+    at <unknown> (./dar-ajaz/src/app/components/Footer.tsx:1:1)
+    at <unknown> (./dar-ajaz/src/app/components/Footer.tsx:1:1)
